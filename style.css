@@ -1,0 +1,20 @@
+h3{
+    font-size: 25px !important
+}
+
+.btn-success:hover
+{
+    background-color: mediumaquamarine
+}
+
+canvas{
+    animation-name:Ishi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Ishi{
+    from{box-shadow: 10px 10px 50px darkgoldenrod;}
+    to{box-shadow: 10px 10px 50px palevioletred;}
+
+}
